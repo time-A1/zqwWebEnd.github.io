@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>广东东软学院官网复现 - 邹庆伟 25216950217</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 头部区域 - 包含学号姓名 -->
+    <header>
+        <div class="student-info">
+            <span>学生：邹庆伟</span>
+            <span>学号：25216950217</span>
+            <span>班级：计科2班</span>
+            <span>实验日期：2026年2月28日</span>
+        </div>
+        <div class="header-main">
+            <div class="logo">
+                <img src="images/logo.png" alt="广东东软学院logo" onerror="this.src='https://via.placeholder.com/200x80?text=广东东软学院'">
+                <h1>广东东软学院</h1>
+                <p>Guangdong Neusoft Institute</p>
+            </div>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="请输入搜索关键词...">
+                <button id="searchBtn">搜索</button>
+            </div>
+        </div>
+        
+        <!-- 导航栏 -->
+        <nav class="main-nav">
+            <ul>
+                <li class="active"><a href="#home">首页</a></li>
+                <li><a href="#about">学校概况</a></li>
+                <li><a href="#news">新闻中心</a></li>
+                <li><a href="#academic">教学科研</a></li>
+                <li><a href="#admission">招生就业</a></li>
+                <li><a href="#party">党团建设</a></li>
+                <li><a href="#service">公共服务</a></li>
+            </ul>
+            <div class="position-indicator">当前位置：首页</div>
+        </nav>
+    </header>
+
+    <!-- 主要内容区域 -->
+    <main>
+        <!-- 轮播图区域 - 动态图片效果 -->
+        <section class="carousel-section">
+            <div class="carousel-container">
+                <div class="carousel-slides">
+                    <div class="slide active">
+                        <img src="images/banner1.jpg" alt="校园风景1" onerror="this.src='https://via.placeholder.com/1200x400?text=校园风景1'">
+                        <div class="slide-caption">广东东软学院 - 美丽校园</div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/banner2.jpg" alt="校园风景2" onerror="this.src='https://via.placeholder.com/1200x400?text=校园风景2'">
+                        <div class="slide-caption">教学主楼</div>
+                    </div>
+                    <div class="slide">
+                        <img src="images/banner3.jpg" alt="校园风景3" onerror="this.src='https://via.placeholder.com/1200x400?text=校园风景3'">
+                        <div class="slide-caption">图书馆</div>
+                    </div>
+                </div>
+                <button class="carousel-btn prev">&lt;</button>
+                <button class="carousel-btn next">&gt;</button>
+                <div class="carousel-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+        </section>
+
+        <!-- 新闻动态区域 - 多篇新闻整齐排列 + 分页功能 -->
+        <section class="news-section" id="news">
+            <h2>新闻动态 <span class="subtitle">News & Events</span></h2>
+            
+            <!-- 分类导航（二级导航） -->
+            <div class="news-categories">
+                <button class="category-btn active" data-category="all">全部</button>
+                <button class="category-btn" data-category="notice">通知公告</button>
+                <button class="category-btn" data-category="academic">学术动态</button>
+                <button class="category-btn" data-category="campus">校园新闻</button>
+            </div>
+
+            <!-- 新闻列表容器 -->
+            <div class="news-grid" id="newsGrid">
+                <!-- 新闻将通过JavaScript动态加载 -->
+            </div>
+
+            <!-- 分页控件 -->
+            <div class="pagination" id="pagination">
+                <!-- 分页按钮将通过JavaScript动态生成 -->
+            </div>
+        </section>
+
+        <!-- 快速链接区域 -->
+        <section class="quick-links">
+            <h2>快速链接 <span class="subtitle">Quick Links</span></h2>
+            <div class="links-grid">
+                <a href="#" class="link-card">
+                    <div class="icon">📚</div>
+                    <span>图书馆</span>
+                </a>
+                <a href="#" class="link-card">
+                    <div class="icon">📧</div>
+                    <span>邮箱系统</span>
+                </a>
+                <a href="#" class="link-card">
+                    <div class="icon">💻</div>
+                    <span>教务系统</span>
+                </a>
+                <a href="#" class="link-card">
+                    <div class="icon">📅</div>
+                    <span>校历</span>
+                </a>
+                <a href="#" class="link-card">
+                    <div class="icon">🗺️</div>
+                    <span>校园地图</span>
+                </a>
+                <a href="#" class="link-card">
+                    <div class="icon">📞</div>
+                    <span>联系我们</span>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- 底部区域 - 再次显示学号姓名 -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>广东东软学院</h3>
+                <p>地址：广东省佛山市南海区狮山镇大学城</p>
+                <p>邮编：528225</p>
+                <p>电话：0757-86684502</p>
+            </div>
+            <div class="footer-section">
+                <h3>关于本次实验</h3>
+                <p>课程名称：Web编程技术</p>
+                <p>实验项目：学校官网复现设计</p>
+                <p>指导教师：易佳丽</p>
+                <p>学生：邹庆伟 | 学号：25216950217</p>
+                <p>班级：计科2班 | 日期：2026年2月28日</p>
+            </div>
+            <div class="footer-section">
+                <h3>技术支持</h3>
+                <p>HTML5 + CSS3 + JavaScript</p>
+                <p>Flex + Grid 布局</p>
+                <p>Ajax + Fetch API</p>
+                <p>响应式设计</p>
+            </div>
+        </div>
+        <div class="copyright">
+            &copy; 2026 邹庆伟 25216950217 - Web编程技术补考实验报告
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

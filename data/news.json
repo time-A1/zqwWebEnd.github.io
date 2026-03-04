@@ -1,0 +1,86 @@
+{
+  "code": 200,
+  "message": "success",
+  "data": [
+    {
+      "id": 1,
+      "title": "我校计算机科学与技术专业通过工程教育认证",
+      "date": "2026-02-25",
+      "category": "notice",
+      "categoryName": "通知公告",
+      "summary": "近日，教育部高等教育教学评估中心公布了2025年度工程教育认证结果，我校计算机科学与技术专业顺利通过认证，有效期6年。",
+      "image": "images/news1.jpg",
+      "views": 1250
+    },
+    {
+      "id": 2,
+      "title": "东软学院与华为签署全面合作协议",
+      "date": "2026-02-20",
+      "category": "campus",
+      "categoryName": "校园新闻",
+      "summary": "2月20日，广东东软学院与华为技术有限公司在深圳华为总部签署全面合作协议，双方将在人才培养、科研创新等方面展开深度合作。",
+      "image": "images/news2.jpg",
+      "views": 980
+    },
+    {
+      "id": 3,
+      "title": "2026年春季学期教学工作会议召开",
+      "date": "2026-02-18",
+      "category": "academic",
+      "categoryName": "学术动态",
+      "summary": "学校召开2026年春季学期教学工作会议，部署新学期重点工作，强调要持续推进教学改革，提高人才培养质量。",
+      "image": "images/news3.jpg",
+      "views": 750
+    },
+    {
+      "id": 4,
+      "title": "我校学子在ACM程序设计大赛中荣获金奖",
+      "date": "2026-02-15",
+      "category": "campus",
+      "categoryName": "校园新闻",
+      "summary": "在刚刚结束的ACM国际大学生程序设计竞赛中，我校计算机学院代表队表现出色，荣获金奖。",
+      "image": "images/news4.jpg",
+      "views": 2100
+    },
+    {
+      "id": 5,
+      "title": "关于2026年清明节放假安排的通知",
+      "date": "2026-02-10",
+      "category": "notice",
+      "categoryName": "通知公告",
+      "summary": "根据国务院办公厅通知精神，现将2026年清明节放假安排通知如下：4月4日至6日放假调休，共3天。",
+      "image": "images/news5.jpg",
+      "views": 3300
+    },
+    {
+      "id": 6,
+      "title": "人工智能学术研讨会即将举行",
+      "date": "2026-02-08",
+      "category": "academic",
+      "categoryName": "学术动态",
+      "summary": "由计算机学院主办的'人工智能前沿技术学术研讨会'将于3月15日在图书馆报告厅举行，欢迎广大师生参加。",
+      "image": "images/news6.jpg",
+      "views": 620
+    },
+    {
+      "id": 7,
+      "title": "校园开放日暨招生咨询会公告",
+      "date": "2026-02-05",
+      "category": "notice",
+      "categoryName": "通知公告",
+      "summary": "我校将于3月20日举办校园开放日暨招生咨询会，届时将全面展示办学成果，解答考生疑问。",
+      "image": "images/news7.jpg",
+      "views": 1450
+    },
+    {
+      "id": 8,
+      "title": "计算机学院举办就业指导讲座",
+      "date": "2026-02-01",
+      "category": "campus",
+      "categoryName": "校园新闻",
+      "summary": "为帮助2026届毕业生更好就业，计算机学院邀请知名企业HR举办就业指导系列讲座。",
+      "image": "images/news8.jpg",
+      "views": 890
+    }
+  ]
+}
